@@ -1,0 +1,16 @@
+{
+  "name": "taproom",
+  "version": "0.0.0",
+  "description": "find whats on tap at your local pub",
+  "main": "index.js",
+  "repository": "",
+  "author": "Jason Denizac <jason@denizac.org>",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "request": "~2.12.0",
+    "lodash": "~0.10.0"
+  },
+  "bin": {"taproom": "./bin/taproom"},
+  "preferGlobal": true,
+}
